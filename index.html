@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Consultorio odontologico</title>
+   <link rel="stylesheet" href="estilos.css">
+   <!-- google-fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Lato:ital@1&family=Roboto+Condensed:wght@700&family=Roboto:ital,wght@1,300&family=Splash&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Lato:ital@1&family=Roboto:ital,wght@1,300&family=Splash&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Lato:ital@1&family=Splash&family=The+Nautigal:wght@700&display=swap"
+      rel="stylesheet">
+</head>
+<body class="wrapper">
+   <header class="contenedor">
+      <div>
+         <h1 class="nombre-empresa">Consultorio Odontológico</h1>
+         <!-- en este lugar debe ir el logo de la empresa con un pequeño texto (slogan??) -->
+         <p class="slogan">Work Plaza - San Lorenzo Chico</p>
+      </div>
+      <nav>
+         <ul>
+            <li class="quiens-somos">
+               <a href="pages/Quienes-Somos.html">Quienes Somos</a>
+            </li> 
+            <li>
+               <a href="pages/Que-Hacemos.html">Que Hacemos</a>
+            </li>
+            <li>  
+               <a href="pages/Turnos.html">Turnos</a>
+            </li>
+            <li>
+               <a href="#Formulario de Contacto">Contacto</a>
+            </li>
+            <!-- la seccion contacto debe hacer referencia al formulario al pie de la pagina principal -->
+         </ul>
+      </nav>  
+   </header>
+   <main>
+      <div class="todas-las-categorias">
+         <img src="images-videos/odonto1.jpg" alt="categoria-01" width="300" height="300">
+         <img src="images-videos/odonto2.jpg" alt="categoria-02" width="300" height="300">
+         <img src="images-videos/odonto3.jpg" alt="categoria-03" width="300" height="300">
+         <img src="images-videos/odonto4.jpg" alt="categoria-01" width="300" height="300">
+      </div>
+      <div>
+         <h3>
+            Donde estamos
+         </h3>
+      </div>
+      <div class="video">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17230.411347190864!2d-65.4895783458076!3d-24.78696750237916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQ3JzIzLjMiUyA2NcKwMjknMTUuMiJX!5e0!3m2!1ses-419!2sar!4v1593791147507!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="width:100% !important; height: 400px" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         <p>
+           Estamos ubicados en el Work Plaza de San Lorenzo Chico. Un lugar con facil estacionamiento y a 10 minutos del centro de la ciudad.
+         </p>
+      </div>
+      <div class="horarios">
+         <h3>
+         Horarios de atención
+         </h3>
+         <div>
+            <table>
+               <thead>
+                  <tr>
+                     <th></th>
+                     <th>Lunes</th>
+                     <th>Martes</th>
+                     <th>Miercoles</th>
+                     <th>Jueves</th>
+                     <th>Viernes</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <tr>
+                     <td>8 a 14 hs</td>
+                     <td>Dra. A</td>
+                     <td>Dra. B</td>
+                     <td>Dra. A</td>
+                     <td>Dra. B</td>
+                     <td>Dra. A</td>
+                  </tr>
+                  <tr>
+                     <td>15 a 20 hs</td>
+                     <td>Dra. B</td>
+                     <td>Dra. A</td>
+                     <td>Dra. B</td>
+                     <td>Dra. A</td>
+                     <td>Dra. B</td>
+                  </tr>
+               </tbody>
+            </table>
+         </div>   
+      </div>
+      <div class="contacto">      
+         <h3 id="Formulario de Contacto">Formulario de Contacto
+         </h3>
+         <form action="" method="" enctype="">
+            <div>
+               <label for="apellido-y-nombre">Apellido y Nombre</label>
+               <input id="apellido-y-nombre" type="text" placeholder="Apellido y Nombre">
+            </div>
+            <div>
+               <label for="correo-electronico">Correo Electronico</label>
+               <input id="correo-electronico" type="text" placeholder="Correo Electronico">
+            </div>
+            <div>
+               <label for="coments">Comentarios</label>
+               <textarea name="comentarios" id="coments" cols="30" rows="10"
+               placeholder="Comentarios">Comentarios</textarea>
+            </div>
+            <div>
+               <input type="submit" value="Enviar Comentarios">
+            </div>
+         </form>
+      </div>
+      <div id="wap">
+         <img src="images-videos/wap.png" alt="wap" width="50" height="50">
+      </div>
+   </main>
+   <footer>
+      <a href="https://www.instagram.com" target="_blank">instagram</a>
+   </footer>
+</body>
+
+</html>

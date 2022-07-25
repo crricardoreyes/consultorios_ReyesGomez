@@ -1,0 +1,201 @@
+body{
+   background-color: whitesmoke;
+   margin: 0%;
+   padding: 0%;
+}
+h2{
+    color: #2e518b;   
+}
+h2{
+    text-align: left;
+}
+.nombre-empresa{
+    text-align:left ;
+    color:rgb(231, 155, 14);
+    font-size: 30px; 
+    font-variant: initial;
+    font-family: 'Alumni Sans Inline One', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+}
+.slogan{
+    text-align:left ;
+    color:rgb(139, 133, 133);
+    font-size: 15px; 
+    font-weight: bold;
+    font-variant: initial;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+li{
+    list-style: none;
+    display:inline-block;
+    border: 1px;
+    padding: 10px;
+    background-color:whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Helvetica', sans-serif;
+    border-radius: 10px;
+}
+ul{
+    background-color: rgb(211, 211, 223);
+    color:black;
+    font-size: 10px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-family:'times new roman', cursive;
+    margin-bottom: 0%;
+ }
+.todas-las-categorias{
+    height: 60vmin;
+    display: flex;
+    gap: 5px;
+}
+.todas-las-categorias img{
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.todas-las-categorias img:hover{
+    flex: 4;
+}
+h3{
+    color: #2e518b;
+    text-align: left;
+}
+.video{
+    display: flex;
+    justify-content: space-evenly ;
+}
+thead tr th{
+    text-align: center;
+}
+tbody tr td{
+    text-align: center;
+}
+table{
+    align-items: center;
+    border: 5px;
+    border-style: dashed;
+}
+#wap{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50px; 
+    text-align: center;
+    font-size: 15px;
+}
+header{
+    background-color:  rgb(211, 211, 223) ;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows:1fr;
+}
+header{
+    grid-template-areas: 
+    "header nav nav"
+    ;  
+}
+header div{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+    padding-top: 100px;
+}
+/* css de pagina "quienes somos" */
+
+.obras-sociales img:hover{
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+    }
+
+/* media queries */
+@media screen and (max-width: 480px)
+ {
+    .nombre-empresa{
+        text-align:center ;
+        color:rgb(231, 155, 14);
+        font-size: 30px; 
+        font-variant: initial;
+        font-family: 'Alumni Sans Inline One', cursive;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bolder;
+    }
+    .slogan{
+        text-align:center ;
+        color:rgb(139, 133, 133);
+        font-size: 15px; 
+        font-weight: bold;
+        font-variant: initial;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    header{
+        background-color:  rgb(211, 211, 223) ;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:2fr;
+    }
+    header{
+        grid-template-areas: 
+        "header"
+        "nav"
+        ;  
+    }
+    header div{
+        grid-area: header;
+    }
+    nav{
+        grid-area: nav;
+    }
+
+    h3{
+    text-align:center ;
+    }
+    .video p {
+        display: none;
+    }
+    header{
+        background-color:  rgb(211, 211, 223) ;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows:1fr;
+    }
+    header{
+        grid-template-areas: 
+        "header header heade"
+        "nav nav nav"
+        ;  
+    }
+    header div{
+        grid-area: header;
+    }
+    nav{
+        grid-area: nav;
+        padding-top: 30px;
+    }
+    ul{
+        padding-left: 0%;
+    }
+}
+
+
+
+
+    
+
+
