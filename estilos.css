@@ -115,6 +115,18 @@ nav{
     grid-area: nav;
     padding-top: 100px;
 }
+.card{
+    display: block;
+ 
+}
+
+
+
+
+
+
+
+
 /* css de pagina "quienes somos" */
 
 .obras-sociales img:hover{
